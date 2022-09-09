@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
  *  main - prints text
- *  Return: Always 1 (Success)
+ *  Return: Always 1 (Failure)
  */
 
 int main(void)
@@ -12,7 +13,7 @@ int main(void)
 	long syscall = 1;
 	long ret = 0;
 	__asm__ ("syscall"
-
+                        
 			: "=a" (ret)
 			: "a" (syscall),
 			"D" (fd),
