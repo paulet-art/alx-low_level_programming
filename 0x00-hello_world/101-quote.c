@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *  main - prints text
- *  returns value :1
+ *  Return: Always 1 (Success)
  */
 
 int main(void)
