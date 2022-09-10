@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main -prints the lowercase alphabet in reverse
+ * main - prints the lowercase alphabet in reverse
  * Return:Always (Success)
  */
 int main(void)
 {
 	char ch;
 
-	for (ch = 'z'; ch = 'a'; ch--)
+	for(ch = 'z'; ch <= 'a'; ch--)
 	{
 		putchar(ch);
 	}
