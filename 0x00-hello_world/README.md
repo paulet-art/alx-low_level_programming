@@ -6,7 +6,7 @@
 A series of files each running a specific program.<br/>
  
 1. 0-preprocessor  <br/>
-     -Program runs a C file through the preprocessor  <br/>
+     - Program runs a C file through the preprocessor  <br/>
 2. 1-compiler  <br/>
      - Program compiles a C file but does not link<br/>
 3. 2-assembler <br/>
