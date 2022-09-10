@@ -3,5 +3,9 @@
  <br/>
 A series of files each running a specific program.<br/>
  
-  1. 0-preprocessor - runs a C file through the preprocessor  <br/>
-  2. 1-compiler - compiles a C file but does not link<br/>
+  1. 0-preprocessor 
+      - runs a C file through the preprocessor  <br/>
+  2. 1-compiler 
+     - compiles a C file but does not link<br/>
+  3. 2-assembler 
+     - generates the assembly code of a C code. The code is saved in in the variable '''$CFILE'''
