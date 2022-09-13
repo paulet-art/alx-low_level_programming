@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower(int c) - checks for lowercase 
- * @c - parameter int arguement
- * Return : 0 
+ * _islower - checks for lowercase
+ * @c : parameter int arguement
+ * Return : 0
  */
 int _islower(int c)
 {
