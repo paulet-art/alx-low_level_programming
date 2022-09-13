@@ -1,0 +1,11 @@
+#include <unistd.h>
+/**
+ * _putchar - prints text
+ * c : text to print
+ * Return:On success 1
+ * On error, -1 is returned, and eror number is set to appopriate
+ */
+int _putchar(char c)
+{
+	return(write(1, &c, 1));
+}
