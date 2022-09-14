@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- prints and sums multiples
+ * main - prints and sums multiples
  * @n :parameter arguement
  * Return: Always 0
  */
@@ -14,4 +14,5 @@ int main(void)
 			sum += n;
 	}
 	printf("%d\n", sum);
+	return (0);
 }
