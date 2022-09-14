@@ -3,10 +3,10 @@
   <h5>TASKS<h5/>
     <br>
     
-    <h3>Series of files contating programs<h3/>
-     <br> 
+   Series of files contating programs
+    
    1.0-putchar.c <br>
-    -program that prints '''_putchar''' <br>
+    -program that prints '''_putchar'''<br>
     
    
     
