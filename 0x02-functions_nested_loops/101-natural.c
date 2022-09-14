@@ -4,10 +4,8 @@
  * @n :parameter arguement
  * Return: Always 0
  */
-void main(int n)
+void main(int n,int sum = 0)
 {
-	int sum = 0;
-
 	for (n = 0; n < 1024; n++)
 	{
 		if ((n % 3) == 0 || (n % 5) == 0)
