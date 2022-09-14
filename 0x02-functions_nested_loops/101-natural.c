@@ -4,9 +4,9 @@
  * @n :parameter arguement
  * Return: Always 0
  */
-int main(void)
+void main(int n)
 {
-	int n, sum = 0;
+	int sum = 0;
 
 	for (n = 0; n < 1024; n++)
 	{
@@ -14,5 +14,4 @@ int main(void)
 			sum += n;
 	}
 	printf("%d\n", sum);
-	return (0);
 }
