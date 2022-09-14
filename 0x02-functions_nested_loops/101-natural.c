@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - prints and sums multiples 3,5
+ * main- prints and sums multiples
  * @n :parameter arguement
  * Return: Always 0
  */
 int main(void)
 {
-	int sum = 0;
+	int n, sum = 0;
 
 	for (n = 0; n < 1024; n++)
 	{
