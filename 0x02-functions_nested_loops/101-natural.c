@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints and sums multiples
- * 
+ * main - prints and sums multiple 
  * Return: Always 0
  */
 int main(void)
