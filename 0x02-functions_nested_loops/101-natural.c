@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints and sums multiples
- * @n :parameter arguement
+ * 
  * Return: Always 0
  */
 int main(void)
