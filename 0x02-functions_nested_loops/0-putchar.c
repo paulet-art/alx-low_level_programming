@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - prints text
- * Return: Always (Success)
+ * main-prints _putchar
+ *
+ * Return:Always 0
  */
 int main(void)
 {
@@ -14,5 +15,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
+	
+	return (0);
 }
