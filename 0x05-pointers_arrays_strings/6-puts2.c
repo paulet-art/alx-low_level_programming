@@ -9,9 +9,9 @@ void puts2(char *str)
 {
 	int i = 0;
 
-	while (*(str[i] != '\0'))
+	while (*(str[i]) != '\0')
 	{
-		_putchar("The Character at %d Index Position = %c \n", i, str[i]);
+		putchar("The Character at %d Index Position = %c \n", i, str[i]);
 		i++;
 	}
 }
