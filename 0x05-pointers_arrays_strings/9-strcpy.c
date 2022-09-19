@@ -5,7 +5,7 @@
  * @src:parameter
  * Return: Always 0
  */
-char *__strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = -1;
 
