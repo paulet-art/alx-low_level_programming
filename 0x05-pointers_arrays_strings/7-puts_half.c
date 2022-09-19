@@ -6,11 +6,22 @@
  */
 void puts_half(char *str)
 {
-	int i;
+	int i, len = _strlen(str);
 
-	_putchar("String = %s\n", str);
+	for (i = ((len - 1) / 2) + 1; i < len; i ++)
+		putchar(10);
+}
+/**
+ * _strlen -length of string
+ * @s:parameter
+ * Returm:Always 0
+ */
+int _strlen(char *s)
+{
+	int len = 0;
 
-	*str = str;
+	while (*(s + len) != '\0')
+		len++;
 
-	*(str / 2);
+	return (len);
 }
