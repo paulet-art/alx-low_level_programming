@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 /**
  * _puts - prints a string
  * @str:parameter string
@@ -6,11 +6,11 @@
  */
 void _puts(char *str)
 {
-	p = str;
+	*str = str;
 
-	while (*p != '\0')
+	while (*str != '\0')
 	{
-		_putchar("%c", *p);
-		p++;
+		_putchar("%c", *str);
+		str++;
 	}
 }
