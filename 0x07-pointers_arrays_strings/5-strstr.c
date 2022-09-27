@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strstr - locates a substring
- * @haystack:parameter
- * @needle:parameter
- * Return:Nothing
- */
+  * _strstr - locates a substring
+  * @haystack:parameter
+  * @needle:parameter
+  * Return:Nothing
+  */
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int i = 0, j = 0;
